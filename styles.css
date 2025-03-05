@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: hsl(240, 46%, 21%);
+    color: white;
+}
+
+header {
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+main {
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.active {
+    display: block;
+    text-align: left;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    float: left;
+    margin: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 15px;
+}
+
+.topnav .search-container{
+    /* justify-content: center; */
+    float: right;
+}
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    all: unset;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.thumbnail {
+    height: 450px;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #151f30;
+    max-width: 600px;
+}
